@@ -14,6 +14,17 @@ export const RouterHead = component$(() => {
 
       <link rel="canonical" href={loc.href} />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+      <meta name="description" content="Todo app using the Qwik framework" />
+      <meta name="keywords" content="Todo, Todos, Qwik, Josh Hyde" />
+      <meta name="author" content="Josh Hyde" />
+      <meta
+        property="image"
+        content="https://avatars.githubusercontent.com/u/40751087?v=4"
+      />
+      <meta name="og:site_name" content="Qwik Todos" />
+      <meta property="type" content="website" />
+
       <link rel="icon" type="image/svg+xml" href="/check-square.svg" />
 
       {head.meta.map((m) => (
